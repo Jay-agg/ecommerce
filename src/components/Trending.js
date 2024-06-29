@@ -42,20 +42,68 @@ const Trending = () => {
             rounded={"2xl"}
             ml="2.5%"
             mt={5}
-            _hover={{ shadow: "lg" }}
+            _hover={{
+              transform: "translateY(-5px)",
+              transitionDuration: "0.2s",
+              transitionTimingFunction: "ease-in-out",
+            }}
           />
         </div>
         <div>
-          <Image src={category2} w="95%" rounded={"2xl"} ml="2.5%" mt={5} />
+          <Image
+            src={category2}
+            w="95%"
+            rounded={"2xl"}
+            ml="2.5%"
+            mt={5}
+            _hover={{
+              transform: "translateY(-5px)",
+              transitionDuration: "0.2s",
+              transitionTimingFunction: "ease-in-out",
+            }}
+          />
         </div>
         <div>
-          <Image src={category4} w="95%" rounded={"2xl"} ml="2.5%" mt={5} />
+          <Image
+            src={category4}
+            w="95%"
+            rounded={"2xl"}
+            ml="2.5%"
+            mt={5}
+            _hover={{
+              transform: "translateY(-5px)",
+              transitionDuration: "0.2s",
+              transitionTimingFunction: "ease-in-out",
+            }}
+          />
         </div>
         <div>
-          <Image src={category1} w="95%" rounded={"2xl"} ml="2.5%" mt={5} />
+          <Image
+            src={category1}
+            w="95%"
+            rounded={"2xl"}
+            ml="2.5%"
+            mt={5}
+            _hover={{
+              transform: "translateY(-5px)",
+              transitionDuration: "0.2s",
+              transitionTimingFunction: "ease-in-out",
+            }}
+          />
         </div>
         <div>
-          <Image src={category2} w="95%" rounded={"2xl"} ml="2.5%" mt={5} />
+          <Image
+            src={category2}
+            w="95%"
+            rounded={"2xl"}
+            ml="2.5%"
+            mt={5}
+            _hover={{
+              transform: "translateY(-5px)",
+              transitionDuration: "0.2s",
+              transitionTimingFunction: "ease-in-out",
+            }}
+          />
         </div>
       </Slider>
     </div>
