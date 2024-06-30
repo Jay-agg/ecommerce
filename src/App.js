@@ -6,6 +6,7 @@ import HomeSlider from "./components/HomeSlider";
 
 import Trending from "./components/Trending";
 import Popular from "./components/Popular";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <HomeSlider />
       <Trending />
       <Popular />
+      <Footer />
     </ChakraProvider>
   );
 }
