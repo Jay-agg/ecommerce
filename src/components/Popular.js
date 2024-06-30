@@ -78,7 +78,17 @@ const Popular = () => {
         </Text>
         <HStack className="mt-5" ml={10} mr={5} overflow={"scroll"}>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -88,7 +98,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -98,7 +118,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -108,7 +138,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -118,7 +158,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -128,7 +178,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -138,7 +198,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -154,9 +224,19 @@ const Popular = () => {
         <Text mt={10} ml={10} fontWeight={"semibold"} fontSize={"lg"}>
           Smartphones
         </Text>
-        <HStack className="mt-5" ml={10} mr={5}>
+        <HStack className="mt-5" ml={10} mr={5} overflow={"scroll"}>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -166,7 +246,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -176,7 +266,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -186,7 +286,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -196,7 +306,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -206,7 +326,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -216,7 +346,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -231,9 +371,19 @@ const Popular = () => {
         <Text mt={10} ml={10} fontWeight={"semibold"} fontSize={"lg"}>
           Smartphones
         </Text>
-        <HStack className="mt-5" ml={10} mr={5}>
+        <HStack className="mt-5" ml={10} mr={5} overflow={"scroll"}>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -243,7 +393,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -253,7 +413,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -263,7 +433,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -273,7 +453,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -283,7 +473,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>
@@ -293,7 +493,17 @@ const Popular = () => {
             </VStack>
           </div>
           <div>
-            <VStack borderColor={"black"} borderWidth={2} rounded={"xl"} p={2}>
+            <VStack
+              borderWidth={2}
+              rounded={"xl"}
+              p={2}
+              _hover={{
+                shadow: "md",
+                transform: "translateY(-5px)",
+                transitionDuration: "0.2s",
+                transitionTimingFunction: "ease-in-out",
+              }}
+            >
               <Image src={phone1} />
               <Text>Asus ROG</Text>
               <ButtonGroup>

@@ -29,14 +29,16 @@ const Header = () => {
           </InputLeftElement>
           <Input type="tel" placeholder="What are you looking for?" />
         </InputGroup>
-        <Button leftIcon={<FaRegHeart />} variant="outline">
+        <Button minW={10} leftIcon={<FaRegHeart />} variant="outline">
           {" "}
           Wishlist
         </Button>
-        <Button ml="auto" leftIcon=<IoCartOutline />>
+        <Button minW={10} ml="auto" leftIcon=<IoCartOutline />>
           Cart{" "}
         </Button>
-        <IconButton mr={5} icon=<FaUserAlt />></IconButton>
+        <Button minW={10} ml="auto" mr={5} leftIcon={<FaUserAlt />}>
+          Sign In{" "}
+        </Button>
       </HStack>
       <Divider orientation="horizontal" mt={3} />
     </div>
