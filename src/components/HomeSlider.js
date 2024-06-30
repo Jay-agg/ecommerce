@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import { Box, Image } from "@chakra-ui/react";
 import slider1 from "../assets/images/slider1.jpg";
-import { Divider, Image } from "@chakra-ui/react";
 import slider2 from "../assets/images/slider2.jpg";
 
 var settings = {
@@ -15,16 +15,32 @@ var settings = {
 
 const HomeSlider = () => {
   return (
-    <div>
+    <Box mt={5} w="full">
       <Slider {...settings}>
-        <div>
-          <Image src={slider1} w="95%" rounded={"2xl"} ml="2.5%" mt={5} />
-        </div>
-        <div>
-          <Image src={slider2} w="95%" rounded={"2xl"} ml="2.5%" mt={5} />
-        </div>
+        <Box>
+          <Image
+            src={slider1}
+            w={{ base: "90%", md: "95%" }}
+            rounded="2xl"
+            ml="auto"
+            mr="auto"
+            mt={5}
+            objectFit="cover"
+          />
+        </Box>
+        <Box>
+          <Image
+            src={slider2}
+            w={{ base: "90%", md: "95%" }}
+            rounded="2xl"
+            ml="auto"
+            mr="auto"
+            mt={5}
+            objectFit="cover"
+          />
+        </Box>
       </Slider>
-    </div>
+    </Box>
   );
 };
 

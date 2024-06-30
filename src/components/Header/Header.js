@@ -9,39 +9,60 @@ import {
   Input,
   InputGroup,
   InputLeftElement,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import LogoIcon from "../../assets/images/logo.png";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaRegHeart, FaUserAlt } from "react-icons/fa";
 import { IoCartOutline } from "react-icons/io5";
-import { FaUserAlt } from "react-icons/fa";
-import { FaRegHeart } from "react-icons/fa";
 
 const Header = () => {
+  const inputWidth = useBreakpointValue({ base: "60%", md: "70%" });
+  const showText = useBreakpointValue({ base: false, md: true });
+
   return (
-    <div>
-      <HStack pt={3} pl={3}>
+    <Box>
+      <HStack pt={3} pl={3} spacing={4} justifyContent="space-between">
         <Box>
-          <Image src={LogoIcon} width={20} />
+          <Image src={LogoIcon} width={{ base: 16, md: 20 }} />
         </Box>
-        <InputGroup ml={5} w="70%" mr={3}>
+        <InputGroup w={inputWidth}>
           <InputLeftElement pointerEvents="none">
             <FaSearch />
           </InputLeftElement>
-          <Input type="tel" placeholder="What are you looking for?" />
+          <Input
+            type="tel"
+            placeholder="What are you looking for?"
+            size={{ base: "sm", md: "md" }}
+          />
         </InputGroup>
-        <Button minW={10} leftIcon={<FaRegHeart />} variant="outline">
-          {" "}
-          Wishlist
-        </Button>
-        <Button minW={10} ml="auto" leftIcon=<IoCartOutline />>
-          Cart{" "}
-        </Button>
-        <Button minW={10} ml="auto" mr={5} leftIcon={<FaUserAlt />}>
-          Sign In{" "}
-        </Button>
+        <HStack spacing={3}>
+          {showText ? (
+            <Button leftIcon={<FaRegHeart />} variant="outline">
+              Wishlist
+            </Button>
+          ) : (
+            <IconButton
+              icon={<FaRegHeart />}
+              aria-label="Wishlist"
+              variant="outline"
+            />
+          )}
+          {showText ? (
+            <Button leftIcon={<IoCartOutline />}>Cart</Button>
+          ) : (
+            <IconButton icon={<IoCartOutline />} aria-label="Cart" />
+          )}
+          {showText ? (
+            <Button mr={2} leftIcon={<FaUserAlt />}>
+              Sign In
+            </Button>
+          ) : (
+            <IconButton mr={2} icon={<FaUserAlt />} aria-label="Sign In" />
+          )}
+        </HStack>
       </HStack>
       <Divider orientation="horizontal" mt={3} />
-    </div>
+    </Box>
   );
 };
 
